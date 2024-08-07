@@ -84,9 +84,6 @@ const perguntas = [
     },
   ];
   
-  
-
-
 let atual = 0;
 let perguntaAtual;
 let historiaFinal = "";
@@ -116,7 +113,7 @@ function mostraPergunta() {
   }
   
   function respostaSelecionada(opcaoSelecionada) {
-    const afirmacoes = opcaoSelecionada.afirmacao;
+    const afirmacoes = opcaoSelecionada.afirmacoes;
     historia += afirmacoes + " ";
     atual++;
    mostraPergunta();
