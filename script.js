@@ -85,7 +85,7 @@ const perguntas = [
   ];
   
 let atual = 0;
-let perguntaAtual;
+let perguntaAtual;"!";  
 let historiaFinal = "";
 
 
